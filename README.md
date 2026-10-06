@@ -30,7 +30,6 @@ Classifiers include Random Forest, XGBoost, LightGBM, SVM, KNN, MLP, Logistic Re
 - **MiniRocket:** `Minirocket_optuna_multi_classifier.py` uses healthy and damaged ground/roof acceleration histories.
 - **Fragility baseline:** `Fragility_classifier.py` classifies damage using single-indicator fragility models.
 - **Interpretability:** `feature_interaction_network.py` analyzes SHAP feature importance and interactions.
-- **Age-dependent resilience:** `multi_year_resilience_manual_inspection.ipynb` compares recovery for As-built, 30-year, 50-year, and 70-year fragility scenarios.
 
 ## Usage
 
