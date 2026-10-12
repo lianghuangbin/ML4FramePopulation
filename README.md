@@ -24,12 +24,6 @@ Experiments compare 12 engineering-based damage indicators, reduced feature subs
 
 Classifiers include Random Forest, XGBoost, LightGBM, SVM, KNN, MLP, Logistic Regression, and Stacking. Training and testing are separated by building ID. Evaluation uses grouped five-fold cross-validation and five random seeds, reporting accuracy, macro-F1, AUC, and confusion matrices.
 
-## Additional Comparisons
-
-- **Catch22:** `build_population_dataset_catch22.py` extracts changes in 22 roof-acceleration features.
-- **MiniRocket:** `Minirocket_optuna_multi_classifier.py` uses healthy and damaged ground/roof acceleration histories.
-- **Fragility baseline:** `Fragility_classifier.py` classifies damage using single-indicator fragility models.
-- **Interpretability:** `feature_interaction_network.py` analyzes SHAP feature importance and interactions.
 
 ## Usage
 
